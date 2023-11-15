@@ -62,3 +62,32 @@ void travel(struct Node *a)
 //     head=new;
 //    
 // }
+
+// struct node{
+//     int data;
+//     struct node *next;
+// }
+// void print(struct node*a){
+//     while(a!=NULL){
+//         printf("%d\n",a->data);
+//         a=a->next;
+//     }
+// }
+// int main()
+// {
+//     struct node *a;
+//     struct node *b;
+//     struct node *c;
+//     a=malloc(sizeof (struct node));
+//     b=malloc(sizeof (struct node));
+//     c=malloc(sizeof (struct Node));
+//     a->data=5;
+//     b->data=6;
+//     c->data=10;
+
+//     a->next=b;
+//     b->next=c;
+//     c->next=NULL;
+//     print(a);
+//    }
+   
